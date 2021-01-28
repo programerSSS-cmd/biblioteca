@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="css/styleIndex.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo-biblioteca.png" alt="logoBiblioteca">
+    </header>
+
+
+    <div id="navPrincipal">
+
+
+        <button onclick="" name="btnPesquisarPorNome" class="btn">
+            Pesquisar Usuarios
+        </button>
+        &nbsp;
+        <input type="text" name="cxtPesquisarPorNome" class="cxtPesquisa">
+
+
+
+        <button onclick="" name="btnPesquisarLivros" class="btn">
+            Pesquisar Livros
+        </button>
+        &nbsp;
+        <input type="text" name="cxtPesquisarLivro" class="cxtPesquisa">
+    </div>
+
+
+    <div id="espaco">
+
+
+    </div>
+
+    <h1 id="novoUsuario">Novo usuario</h1>
+    <div id="formCriar">
+
+        <form action="crud/criar.php" method='post' target='_Blank'>
+            <table>
+
+                <tr>
+                    <td> NOME : </td>
+                    <td> <input type="text" name='nomeCriar' value='Insira seu nome...' onfocus="this.value='' ">
+                    </td>
+                </tr>
+                <tr>
+                    <td> EMAIL : </td>
+                    <td> <input type="email" name='emailCriar' value='email@email.com' onfocus="this.value='' "> </td>
+                </tr>
+                <tr>
+                    <td> TELEFONE : </td>
+                    <td> <input type="text" name='telCriar' value='+00 00 00000-0000' onfocus="this.value='+5511' ">
+                    </td>
+                </tr>
+                <tr>
+                    <td> CPF : </td>
+                    <td> <input type="text" name='cpfCriar' value='XXX.XXX.XXX-X' onfocus="this.value='' "> </td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" value='Criar' onclick=""></td>
+                </tr>
+            </table>
+        </form>
+
+
+    </div>
+
+
+    <footer>
+
+        <p>Copyright 2021 - by Erick Rodrigues da Silva <br>
+            GitHub | LinkeDin | WhatsApp</p>
+
+
+    </footer>
+</body>
+
+</html>

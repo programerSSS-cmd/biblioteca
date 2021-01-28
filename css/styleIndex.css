@@ -1,0 +1,114 @@
+/*css Geral*/
+
+* {
+    margin: 0;
+}
+
+html {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin-left: 14%;
+    border: black 1px solid;
+    width: 70%;
+    height: 1200px;
+    background-color: rgba(54, 54, 107, 0.89);
+}
+
+/* css Header*/
+
+header {
+    border: rgba(163, 31, 31, 0.507) 1px solid;
+    text-align: center;
+    height: 180px;
+}
+
+header h1 {
+    color: blue;
+}
+
+/*css Pesquisa*/
+
+div#navPrincipal {
+    border: rgba(2, 2, 2, 0.212) 1px solid;
+    display: inline-flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+
+div#navPrincipal button.btn {
+    width: 200px;
+    margin-left: 3%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1e78ac;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px#186896;
+}
+
+div#navPrincipal button.btn:hover {
+    background-color: #144f70d5
+}
+
+div#navPrincipal button.btn:active {
+    background-color: #144f70d5;
+    box-shadow: 0 2px #144f70d5;
+    transform: translateY(2px);
+}
+
+input.cxtPesquisa {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    outline: none;
+}
+
+/*css espaço de pesquisa*/
+
+div#espaco {
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(224, 26, 26);
+}
+
+/*css Formulário*/
+
+h1#novoUsuario {
+    text-align: center;
+    color:#32769e;
+}
+
+div#formCriar {
+    margin: 5% auto auto auto;
+    align-content: center;
+    border: 3px solid rgb(83, 2, 47);
+    width: 30%;
+    height: 300px;
+    background-color: #165b83;
+}
+
+/*css Footer*/
+footer{
+
+    border-top: 1px solid black;
+    margin-top: 5%;
+    text-align: center;
+    color: #1e78ac;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
