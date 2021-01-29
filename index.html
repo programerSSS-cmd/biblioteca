@@ -42,32 +42,35 @@
     <h1 id="novoUsuario">Novo usuario</h1>
     <div id="formCriar">
 
-        <form action="crud/criar.php" method='post' target='_Blank'>
-            <table>
+        <form action="" method='post' target=''>
+            <table id="tableCriar">
 
                 <tr>
-                    <td> NOME : </td>
-                    <td> <input type="text" name='nomeCriar' value='Insira seu nome...' onfocus="this.value='' ">
+                    <td> NOME </td>
+                    <td> <input type="text" name='nomeCriar' value='Insira seu nome...' onfocus="this.value='' "
+                            class="criar">
                     </td>
                 </tr>
                 <tr>
-                    <td> EMAIL : </td>
-                    <td> <input type="email" name='emailCriar' value='email@email.com' onfocus="this.value='' "> </td>
+                    <td> EMAIL </td>
+                    <td> <input type="email" name='emailCriar' value='email@email.com' onfocus="this.value='' "
+                            class="criar"> </td>
                 </tr>
                 <tr>
-                    <td> TELEFONE : </td>
-                    <td> <input type="text" name='telCriar' value='+00 00 00000-0000' onfocus="this.value='+5511' ">
+                    <td> TEL </td>
+                    <td> <input type="text" name='telCriar' value='+00 00 00000-0000' onfocus="this.value='+5511' "
+                            class="criar">
                     </td>
                 </tr>
                 <tr>
-                    <td> CPF : </td>
-                    <td> <input type="text" name='cpfCriar' value='XXX.XXX.XXX-X' onfocus="this.value='' "> </td>
+                    <td> CPF </td>
+                    <td> <input type="text" name='cpfCriar' value='XXX.XXX.XXX-X' onfocus="this.value='' "
+                            class="criar"> </td>
                 </tr>
 
-                <tr>
-                    <td><input type="submit" value='Criar' onclick=""></td>
-                </tr>
+               
             </table>
+            <input type="submit" value='CRIAR' onclick="" class="btn">
         </form>
 
 

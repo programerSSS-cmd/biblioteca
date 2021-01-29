@@ -8,14 +8,17 @@ html {
     background-color: white;
     width: 100%;
     height: 100%;
+    
 }
 
 body {
+    display: block;
     margin-left: 14%;
     border: black 1px solid;
     width: 70%;
     height: 1200px;
     background-color: rgba(54, 54, 107, 0.89);
+   
 }
 
 /* css Header*/
@@ -34,7 +37,7 @@ header h1 {
 
 div#navPrincipal {
     border: rgba(2, 2, 2, 0.212) 1px solid;
-    display: inline-flex;
+    display: inline-block;
     width: 100%;
     height: 150px;
     align-items: center;
@@ -73,7 +76,8 @@ input.cxtPesquisa {
     font-size: 16px;
     background-color: white;
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 8px 16px 8px 30px;
+    margin-top: 40px;
     outline: none;
 }
 
@@ -89,21 +93,61 @@ div#espaco {
 
 h1#novoUsuario {
     text-align: center;
-    color:#32769e;
+    color: #368ec2;
 }
 
 div#formCriar {
-    margin: 5% auto auto auto;
-    align-content: center;
-    border: 3px solid rgb(83, 2, 47);
+    
+    margin: 30px auto auto 32%;
+    border-radius: 10px;
     width: 30%;
     height: 300px;
-    background-color: #165b83;
+    
+}
+div#formCriar form{
+    
+    width: 350px;
+}
+
+div#formCriar td {
+    text-align: center;
+    color: azure;
+    padding: 10px;
+    width: 250px;
+    background-color: #589ec73f;
+    border-radius: 10px;
+}
+
+div#formCriar input.criar {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 8px 16px 8px 50px;
+    outline: none;
+}
+
+div#formCriar input.btn {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #589ec7bb;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
 }
 
 /*css Footer*/
-footer{
 
+footer {
     border-top: 1px solid black;
     margin-top: 5%;
     text-align: center;
