@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+
     <link rel="stylesheet" href="css/styleIndex.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,19 +43,19 @@
     <h1 id="novoUsuario">Novo usuario</h1>
     <div id="formCriar">
 
-        <form action="" method='post' target=''>
+        <form action="functions/criar.php" method='post' target='_SELF'>
             <table id="tableCriar">
 
                 <tr>
                     <td> NOME </td>
                     <td> <input type="text" name='nomeCriar' value='Insira seu nome...' onfocus="this.value='' "
-                            class="criar">
+                            class="criar" required>
                     </td>
                 </tr>
                 <tr>
                     <td> EMAIL </td>
                     <td> <input type="email" name='emailCriar' value='email@email.com' onfocus="this.value='' "
-                            class="criar"> </td>
+                            class="criar" required> </td>
                 </tr>
                 <tr>
                     <td> TEL </td>
@@ -65,12 +66,12 @@
                 <tr>
                     <td> CPF </td>
                     <td> <input type="text" name='cpfCriar' value='XXX.XXX.XXX-X' onfocus="this.value='' "
-                            class="criar"> </td>
+                            class="criar" required> </td>
                 </tr>
 
-               
+
             </table>
-            <input type="submit" value='CRIAR' onclick="" class="btn">
+            <input type="submit" value='CRIAR' class="btn">
         </form>
 
 
